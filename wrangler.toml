@@ -1,0 +1,6 @@
+name = "cf-ai-docsummarizer"
+main = "src/index.ts"
+compatibility_date = "2025-11-10"
+
+[ai]
+binding = "AI"
