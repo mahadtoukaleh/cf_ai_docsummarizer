@@ -26,6 +26,21 @@ Return only the summary — no headings or extra commentary.
 
 ---
 
+## 🤖 AI Assistance Disclosure
+
+This project was partially AI-assisted, in line with Cloudflare’s internship assignment guidelines.
+
+AI tools (ChatGPT / GPT-5) were used **strictly for understanding and debugging purposes**, including:
+- Clarifying Wrangler setup and configuration issues (e.g., `Ai binding undefined`, TypeScript model bindings).
+- Understanding how Workers AI integrates with the `@cloudflare/ai` package.
+- Troubleshooting TypeScript and deployment errors.
+- Refining the logic for calling Cloudflare’s AI model and parsing responses.
+- Improving documentation clarity and formatting (this `PROMPTS.md` file).
+
+All core implementation code, UI design, and logic were written, structured, and tested manually by the developer (**Mahad Mohamed Yonis**).
+
+----
+
 Model: @cf/meta/llama-3.1-8b-instruct
 Platform: Cloudflare Workers AI
 Project: cf_ai_docsummarizer
